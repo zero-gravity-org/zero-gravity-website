@@ -26,3 +26,4 @@ Please reach out to any of the below members for help. Good luck!
 [@coderwassananmol](http://github.com/coderwassananmol) (Admin)
 [@Yuktichopra](http://github.com/Yuktichopra) (Mentor)
 [@utk3995](http://github.com/utk3995) (Mentor)
+[@prateekrawal](http://github.com/prateekrawal)(Mentor)
