@@ -16,7 +16,7 @@ Every participant(s) is required to fork this repository and make changes on the
 
 ## Issue creation
 <b>It is strictly for the mentors and admin. Please read it carefully.</b><br />
-Mentors and admin are requested to make issues and mark them with GSSoC label.
+Mentors and admin are requested to make issues and mark them with GSSoC label. Add separate labels like `up for grab`, `beginner`, `easy`, `medium`, `hard`. After someone comments on the issue, remove the `up for grab` label. If the person doesn't respond in 2 days, add `up for grab` label again to let other participants know that the issue is available to work on.
 
 Please reach out to any of the below members for help. Good luck!
 
