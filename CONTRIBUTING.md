@@ -10,12 +10,9 @@ Once a feature is completed, the code will be merged to <b>staging</b> branch. A
 Once a feature is fully tested, only then it will be merged to <b>master</b> branch.<br />
 To read more about this workflow, you can visit [this link](http://guides.beanstalkapp.com/deployments/best-practices.html).
 
-## Feature Branching
+## Fork
 <b>It is strictly for the participants. Please read it carefully.</b><br />
-Every participant(s) is required to make his/their own feature branch from the <b>dev branch</b> and this branch should be named <b>feature-*</b>. For example,
-if you are working on media uploader, make the feature branch with name, <b>feature-media-uploader</b>. Push all your code to
-this feature branch. Once it is ready for deployment, make a Pull Request to dev branch. Once the feature branch is merged to dev,
-please delete the feature branch to avoid confusion.
+Every participant(s) is required to fork this repository and make changes on the forked repository and after making all the changes, make a Pull Request to <b>dev branch</b>.
 
 ## Issue creation
 <b>It is strictly for the mentors and admin. Please read it carefully.</b><br />
