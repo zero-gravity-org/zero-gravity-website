@@ -1,0 +1,28 @@
+.my-navbar{
+  height: 88px;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+  background: none;
+  border: 0;
+  border-radius: 0;
+}
+
+.my-navbar .navbar-nav a {
+  color: white !important;
+}
+
+.my-navbar .navbar-nav{
+  padding-left: 480px;
+}
+
+.my-navbar .navbar-nav a:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #28a745;
+}
+
+.my-carousel{
+  position: absolute;
+  top: 0;
+}
