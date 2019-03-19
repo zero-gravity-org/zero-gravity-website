@@ -12,13 +12,9 @@
   color: white !important;
 }
 
-.my-navbar .navbar-nav{
-  padding-left: 480px;
-}
-
 .my-navbar .navbar-nav a:hover{
   border-style: solid;
-  border-width: 1px;
+  border-width: 0.1px;
   border-color: #28a745;
 }
 
