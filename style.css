@@ -1,0 +1,90 @@
+
+
+/* Quicksand font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+}
+
+
+/* combined styles for funded & help sections */
+.funded-section,
+.help-section{
+    height:100vh;
+    padding: 30px 50px;
+    text-align: center;
+    background:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Assets/2t6b5242-crop-u20715.jpg') center/cover no-repeat;
+}
+
+.funded-section__heading,
+.help-section__heading{
+    font-family: 'Quicksand', sans-serif;
+    margin:1.5rem auto;
+    color:#ffc403;
+    font-size:3.5rem;
+    font-weight: 400;
+
+}
+
+.funded-section__content,
+.help-section__content{
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    color: white;
+    word-spacing: 2.3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.funded-section__btn,
+.help-section__btn{
+    display:block;
+    border-radius: 5px;
+    margin:3rem auto;
+    background-color:#ffc403;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    width:300px;
+    font-size: 1.8rem;
+    box-shadow: inset 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* some specific funded section styles */
+.funded-section__content:nth-of-type(1){
+    margin:5rem auto 0.5rem;
+}
+
+
+.funded-section__content:nth-of-type(2){
+    margin:0.5rem auto;
+}
+
+.funded-section__content:nth-of-type(3){
+    margin:6rem auto;
+    font-weight: bold;
+}
+
+
+
+/* some specific help section styles */
+.help-section{
+    background:linear-gradient(to bottom,rgba(0,0,0,0.54),rgba(0,0,0,0.54)), url('Assets/2t6b0409.jpg') center/cover no-repeat;
+}
+
+.help-section__content{
+    margin:2rem auto;
+}
+
+.help-section__btn{
+    margin:3.5rem auto;
+}
