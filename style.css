@@ -26,26 +26,39 @@ body{
     width: 85%;
     height: 2px;
     background:#FFC403;
-    margin: 15px auto 25px;
+    margin: 1.5rem auto 2.5rem;
 }
 
 
 /* "Who we are and Why nothing hold us down" Section styles */
 .who_we_are-section, .why_nothing_hold_us_down-section {
-    padding: 20px 0;
+    padding: 1.5rem 0;
     text-align: center;
 }
 
 .who_we_are-section p, .why_nothing_hold_us_down-section p {
     width: 85%;
-    margin: 30px auto;
+    margin: 2rem auto;
     font-family: Quicksand;
-    font-size: 30px;
+    font-size: 1.8rem;
     line-height: normal;
     letter-spacing: 0.05em;
     color: #282828;
 }
 
+/* "How we work section" styles */
+.how_we_work-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.how_we_work-section .row {
+    padding-top: 3rem;
+    font-family: Quicksand;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 500;
+}
 
 /* combined styles for funded & help sections */
 .funded-section,
