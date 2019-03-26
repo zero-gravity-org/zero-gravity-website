@@ -13,6 +13,39 @@ body{
     margin:0;
 }
 
+/* common css styles */
+.section-heading {
+    font-family: 'Quicksand', sans-serif;
+    margin:1.5rem auto;
+    color:#ffc403;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.section-divider-line {
+    width: 85%;
+    height: 2px;
+    background:#FFC403;
+    margin: 15px auto 25px;
+}
+
+
+/* "Who we are and Why nothing hold us down" Section styles */
+.who_we_are-section, .why_nothing_hold_us_down-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.who_we_are-section p, .why_nothing_hold_us_down-section p {
+    width: 85%;
+    margin: 30px auto;
+    font-family: Quicksand;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    color: #282828;
+}
+
 
 /* combined styles for funded & help sections */
 .funded-section,
