@@ -203,3 +203,21 @@ body{
 .help-section__btn{
     margin:3.5rem auto;
 }
+
+.video-section {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.video-section iframe {
+    width: 75%;
+    height: 580px;
+}
+
+.video-section h2 {
+    color: #FFC403;
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 2.7rem;
+    margin-top: 1.5rem;
+}
