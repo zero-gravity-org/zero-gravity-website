@@ -29,6 +29,29 @@ body{
     margin: 1.5rem auto 2.5rem;
 }
 
+/* Navbar */
+#menubar ul li {
+    padding: 0 1.5rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #282828;
+}
+
+#menubar ul li:hover, #menubar .active {
+    border-top: 2px solid #FFC403;
+    border-bottom: 2px solid #FFC403;
+}
+
+#menubar ul li.always-active {
+    background: #FFC403;
+    border-radius: 5px;
+}
+
+#menubar ul li.always-active a {
+    color: #FFFFFF;
+}
+
 
 /* "Who we are and Why nothing hold us down" Section styles */
 .who_we_are-section, .why_nothing_hold_us_down-section {
