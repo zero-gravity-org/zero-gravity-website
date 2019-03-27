@@ -17,9 +17,9 @@
   <body>
 
     <!-- Nav Bar -->
-    <nav id="menubar" class="navbar navbar-expand-lg navbar-light bg-light">
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav id="menubar" class="navbar navbar-expand-lg">
+      <nav class="navbar">
+        <a class="navbar-brand" href="#"><img src="Assets/logo.png" alt="logo" /></a>
       </nav>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">OUR INSPIRATION<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#section1">OUR INSPIRATION<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GET INVOLVED</a>
+            <a class="nav-link" href="#section2">GET INVOLVED</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PROJECTS</a>
+            <a class="nav-link" href="#section3">PROJECTS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">GALLERY</a>
@@ -50,29 +50,54 @@
     </nav>
 
     <!-- Carousel -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="3000">
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="Assets/slide1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>“We create opportunities for people to become changemakers who use their genius on epic projects of social good.”</h3>
+            <h2>JOIN US</h2>
+          </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="Assets/slide1.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>“We create opportunities for people to become changemakers who use their genius on epic projects of social good.”</h3>
+            <h2>JOIN US</h2>
+          </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="Assets/slide1.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>“We create opportunities for people to become changemakers who use their genius on epic projects of social good.”</h3>
+            <h2>JOIN US</h2>
+          </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="Assets/slide1.jpg" alt="Fourth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>“We create opportunities for people to become changemakers who use their genius on epic projects of social good.”</h3>
+            <h2>JOIN US</h2>
+          </div>
         </div>
         <div class="carousel-item">
+          <div class="overlay"></div>
           <img class="d-block w-100" src="Assets/slide1.jpg" alt="Fifth slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>“We create opportunities for people to become changemakers who use their genius on epic projects of social good.”</h3>
+            <h2>JOIN US</h2>
+          </div>
         </div>
       </div>
     </div>
 
 
     <!-- Who we are section -->
-    <section class="who_we_are-section">
+    <section class="who_we_are-section" id="section1">
       <h2 class="section-heading">Who we are</h2>
       <p>Zero Gravity is a youth led non profit, operating under Dr. Shrikant Jichkar Foundation that brings young changemakers together who use their genius on projects of social good based on innovation and ideation. It works with government schools, children at risks in shelters and with village communities at large.</p> 
     </section>
@@ -88,7 +113,7 @@
     <div class="section-divider-line"></div>
 
     <!-- How we work section -->
-    <section class="how_we_work-section">
+    <section class="how_we_work-section" id="section2">
       <h2 class="section-heading">How we work</h2>
       <div class="container-fluid">
         <div class="row">
@@ -115,7 +140,7 @@
     <div class="section-divider-line"></div>
 
     <!-- Fund 'Ed' section -->
-    <section class="funded-section">
+    <section class="funded-section" id="section3">
       <h2 class="funded-section__heading">The Fund 'Ed' Program </h2>
       <p class="funded-section__content">Sponsor a child's education</p>
       <p class="funded-section__content">We shall provide you with detailed profiles of children to choose from</p>
