@@ -13,6 +13,121 @@ body{
     margin:0;
 }
 
+/* common css styles */
+.section-heading {
+    font-family: 'Quicksand', sans-serif;
+    margin:1.5rem auto;
+    color:#ffc403;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.section-divider-line {
+    width: 85%;
+    height: 2px;
+    background:#FFC403;
+    margin: 1.5rem auto 2.5rem;
+}
+
+/* Navbar */
+#menubar, #menubar .navbar {
+    background-color: #fff;
+    padding: 0 1rem;
+}
+
+#menubar .navbar-nav {
+    padding-right: 2.5rem;
+}
+
+#menubar ul li {
+    padding: 0 1rem;
+    margin: 0 0.5rem;
+    font-family: Quicksand;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+}
+
+#menubar ul li a {
+    color: #282828;
+}
+
+#menubar ul li:hover, #menubar ul li:hover a {
+    background: #FFC403;
+    color: #fff;
+    transition: all ease 0.1s;
+    /* border-top: 2px solid #FFC403;
+    border-bottom: 2px solid #FFC403; */
+}
+
+#menubar ul li.always-active {
+    background: #FFC403;
+    border-radius: 5px;
+}
+
+#menubar ul li.always-active a {
+    color: #FFFFFF !important;
+}
+
+#carouselExampleSlidesOnly .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .4;
+}
+
+#carouselExampleSlidesOnly .carousel-caption {
+    left: 10%;
+    right: 10%;
+    top: 40%;
+    font-family: Quicksand;
+    line-height: normal;
+    letter-spacing: 0.05em;
+}
+
+#carouselExampleSlidesOnly .carousel-caption h3 {
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+
+#carouselExampleSlidesOnly .carousel-caption h2 {
+    color: #FFC403;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+/* "Who we are and Why nothing hold us down" Section styles */
+.who_we_are-section, .why_nothing_hold_us_down-section {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.who_we_are-section p, .why_nothing_hold_us_down-section p {
+    width: 85%;
+    margin: 2rem auto;
+    font-family: Quicksand;
+    font-size: 1.4rem;
+    line-height: normal;
+    letter-spacing: 0.05em;
+    color: #282828;
+}
+
+/* "How we work section" styles */
+.how_we_work-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.how_we_work-section .row {
+    padding-top: 3rem;
+    font-family: Quicksand;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 500;
+}
 
 /* combined styles for funded & help sections */
 .funded-section,
@@ -87,4 +202,22 @@ body{
 
 .help-section__btn{
     margin:3.5rem auto;
+}
+
+.video-section {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.video-section iframe {
+    width: 75%;
+    height: 580px;
+}
+
+.video-section h2 {
+    color: #FFC403;
+    font-family: Quicksand;
+    font-weight: normal;
+    font-size: 2.7rem;
+    margin-top: 1.5rem;
 }
