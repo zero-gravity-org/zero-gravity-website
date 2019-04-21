@@ -221,3 +221,61 @@ body{
     font-size: 2.7rem;
     margin-top: 1.5rem;
 }
+
+
+/* Contact Us */
+.contact-section {
+    padding: 20px 50px;
+    background:linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Assets/contact-us-bg.jpg') center/cover no-repeat;
+    font-size: 1.7rem
+}
+
+.contact-section .section-heading {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.contact-section form {
+    border-right: 2px solid #ffc403;
+    color: #ffc403;
+    padding-right: 100px;
+}
+
+.contact-section form input {
+    font-size: 1.7rem;
+    padding: 10px
+}
+
+.contact-section .btn {
+    background: #ffc403;
+    color: #fff;
+    font-size: 1.7rem;
+    width: 100%
+}
+
+.contact-section form h3 {
+    color: #fff;
+    font-size: 3rem;
+    padding: 20px 0;
+}
+
+.contact-section .social-links a {
+    color: #fff;
+    display: flex;
+    padding: 25px 0;
+}
+
+.contact-section .social-links a:hover {
+    text-decoration: none;
+}
+
+.contact-section .social-links .fa {
+    color: #ffc403;
+    font-size: 3.5rem;
+    text-align: center;
+    width: 150px;
+}
+
+.contact-section .social-links span {
+    padding: 8px 0;
+}
