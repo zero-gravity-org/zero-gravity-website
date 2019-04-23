@@ -279,3 +279,32 @@ body{
 .contact-section .social-links span {
     padding: 8px 0;
 }
+
+
+
+
+/* === MEDIA QUERIES === */
+
+@media only screen and (max-width: 768px) {
+    .contact-section form {
+        border-bottom: 2px solid #ffc403;
+        border-right: 0;
+        padding-right: 0;
+    }
+}
+  
+@media only screen and (max-width: 414px) {
+    .contact-section {
+        padding: 20px;
+    }
+
+    .contact-section .social-links .fa {
+        font-size: 2rem;
+        width: 70px;
+    }
+
+    .contact-section .social-links span {
+        font-size: 1.4rem;
+        padding: 0;
+    }
+}
