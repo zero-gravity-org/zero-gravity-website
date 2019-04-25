@@ -223,6 +223,24 @@ body{
 }
 
 
+/* donar section styles */
+.donor-section .row {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.donor-section img {
+    border-radius: 50%; 
+    width: 100%;
+    padding: 50px 0; 
+}
+
+.donor-section iframe {
+    width: 100%;
+    height: 1000px
+}
+
+
 /* Contact Us */
 .contact-section {
     padding: 20px 50px;
@@ -306,5 +324,9 @@ body{
     .contact-section .social-links span {
         font-size: 1.4rem;
         padding: 0;
+    }
+
+    .contact-section form h3 {
+        font-size: 1.6rem;
     }
 }
