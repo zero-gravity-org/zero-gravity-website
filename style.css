@@ -8,6 +8,9 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin:0;
@@ -67,6 +70,14 @@ body{
 
 #menubar ul li.always-active a {
     color: #FFFFFF !important;
+}
+button.navbar-toggler {
+    border-color:#FFC403;
+}
+
+.fa-bars{
+    font-size:1.5em;
+    color:#FFC403;
 }
 
 #carouselExampleSlidesOnly .overlay {
