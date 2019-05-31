@@ -12,8 +12,10 @@
    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+    <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-   </head>
+  </head>
 
   <body>
 
@@ -168,39 +170,58 @@
     </section>
     <div class="section-divider-line"></div>
 
-    
-    
+    <!-- Donar section -->
     <section class="donor-section" id="donate">
-      
-        <h2 class="help-section__heading" style="text-align: center" >Donate?</h2><br>
-            <h3 style="text-align: center" >“No one is useless in this world who lightens the burdens of another.”</h3>
-      
-       
-            <br>
-            <br>
-      <div class="row" style=" height: 1016px">
-
-        <div class="col-lg-6" style="height: 1016px">
-
-          <img src="./Assets/donation.jpg" style="border-radius: 50%; width: 700px; height: 700px;margin-left: 100px;margin-top: 100px">
-
-
-
+      <h2 class="help-section__heading" style="text-align: center" >Donate?</h2><br>
+        <h3 style="text-align: center" >“No one is useless in this world who lightens the burdens of another.”</h3>
+        <br>
+        <br>
+      <div class="row" >
+        <div class="col-lg-6">
+          <img src="./Assets/donation.jpg">
         </div>
-
-        <div class="col-lg-6"  style="height: 1016px" id="contacts">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbjGGCsIjcN6lxLm_LRi-T50d8_EY1hjEFoxOE5Zt8xG-HUQ/viewform?embedded=true"
-             width="640" height="1016" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-          
-          </div>
-
-
+        <div class="col-lg-6">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbjGGCsIjcN6lxLm_LRi-T50d8_EY1hjEFoxOE5Zt8xG-HUQ/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
       </div>
-
-      
     </section>
 
-
+    <!-- Contact Us section -->
+    <section class="contact-section">
+      <h2 class="section-heading">Contact Us</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <form>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <input type="text" class="form-control" id="message" name="msg">
+              </div>
+              <button name="send_message_btn" type="submit" class="btn">Submit</button>
+              <h3>Or call us at: 7507011110</h3>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <div class="social-links">
+              <a href="https://sample.com" target="_blank"><i class="fa fa-twitter"></i><span>twitter.com/sample</span></a>
+              <a href="https://sample.com" target="_blank"><i class="fa fa-facebook"></i><span>facebook.com/sample</span></a>
+              <a href="https://sample.com" target="_blank"><i class="fa fa-youtube-play"></i><span>youtube.com/sample</span></a>
+              <a href="https://sample.com" target="_blank"><i class="fa fa-instagram"></i><span>instagram.com/sample</span></a>
+              <a href="https://sample.com" target="_blank"><i class="fa fa-linkedin"></i><span>linkedin.com/sample</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
